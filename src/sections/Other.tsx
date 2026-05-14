@@ -13,19 +13,19 @@ export function Other() {
     {
       title: "GitHub",
       desc: "Explore my repositories and projects",
-      href: "https://github.com/Ameenkhan18",
+      href: "https://github.com/farooq-senpai",
       icon: Github,
     },
     {
       title: "LinkedIn",
       desc: "Connect with me professionally",
-      href: "https://www.linkedin.com/in/ameen-khan2",
+      href: "https://www.linkedin.com/in/shaikabdulfarooq/",
       icon: Linkedin,
     },
     {
       title: "Email",
       desc: "Reach out for collaborations or opportunities",
-      href: "mailto:ameenkhann.2004@gmail.com",
+      href: "mailto:farooqshaik3906@gmail.com",
       icon: Mail,
     },
   ];
@@ -40,7 +40,7 @@ export function Other() {
 
         <div className="mb-20 text-center">
 
-          <span className="text-sm font-bold uppercase tracking-[0.4em] text-violet-400">
+          <span className="text-sm font-bold uppercase tracking-[0.4em] text-orange-400">
             Connect
           </span>
 
@@ -67,7 +67,7 @@ export function Other() {
               whileHover={{
                 y: -8,
               }}
-              className="glass-strong group rounded-[32px] p-8 transition-all duration-300 hover:border-violet-400/20"
+              className="glass-strong group rounded-[32px] p-8 transition-all duration-300 hover:border-orange-400/20"
             >
 
               <div className="flex items-center justify-between">

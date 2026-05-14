@@ -23,7 +23,7 @@ export function ProjectCard({
         duration: 0.7,
         delay: index * 0.1,
       }}
-      className="group flex h-full flex-col"
+      className="group flex h-full min-h-[760px] flex-col"
     >
       <div className="mb-5 flex items-center justify-between">
         <h3 className="text-2xl font-bold text-white">
@@ -37,7 +37,7 @@ export function ProjectCard({
               href={project.github}
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-full border border-white/10 bg-white/5 p-3 text-white/70 transition-all hover:bg-violet-500/20 hover:text-white"
+              className="rounded-full border border-white/10 bg-white/5 p-3 text-white/70 transition-all hover:bg-orange-500/20 hover:text-white"
             >
               <Github size={18} />
             </a>
@@ -48,7 +48,7 @@ export function ProjectCard({
               href={project.demo}
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-full border border-white/10 bg-white/5 p-3 text-white/70 transition-all hover:bg-violet-500/20 hover:text-white"
+              className="rounded-full border border-white/10 bg-white/5 p-3 text-white/70 transition-all hover:bg-orange-500/20 hover:text-white"
             >
               <ArrowUpRight size={18} />
             </a>
@@ -57,9 +57,9 @@ export function ProjectCard({
         </div>
       </div>
 
-      <div className="group relative overflow-hidden rounded-[32px] border border-white/10 bg-white/[0.03] p-[1px] shadow-[0_20px_80px_rgba(0,0,0,0.55)] transition-all duration-500 hover:-translate-y-2 hover:border-violet-400/30">
+      <div className="group relative overflow-hidden rounded-[32px] border border-white/10 bg-white/[0.03] p-[1px] shadow-[0_20px_80px_rgba(0,0,0,0.55)] transition-all duration-500 hover:-translate-y-2 hover:border-orange-400/30">
 
-        <div className="relative overflow-hidden rounded-[30px] bg-[#0f0f17]">
+        <div className="relative flex h-full flex-col overflow-hidden rounded-[30px] bg-[#0f0f17]">
 
           <div
             className={`absolute inset-0 bg-gradient-to-br opacity-80 ${project.bgColor}`}
@@ -67,7 +67,7 @@ export function ProjectCard({
 
           <div className="relative z-10 p-7">
 
-            <p className="text-base leading-relaxed text-white/75">
+            <p className="line-clamp-4 text-base leading-relaxed text-white/75">
               {project.description}
             </p>
 
@@ -87,7 +87,7 @@ export function ProjectCard({
           {project.screenshots?.[0] && (
             <div className="relative mt-6 px-6 pb-6">
 
-              <div className="overflow-hidden rounded-2xl border border-white/10 bg-black shadow-2xl">
+              <div className="h-[320px] overflow-hidden rounded-2xl border border-white/10 bg-black shadow-2xl">
 
                 <Image
                   src={project.screenshots[0]}

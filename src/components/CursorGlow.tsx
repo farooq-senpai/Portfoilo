@@ -75,7 +75,7 @@ export function CursorGlow() {
           stiffness: 300,
           damping: 25,
         }}
-        className="pointer-events-none fixed z-[9999] rounded-full border border-violet-400 mix-blend-screen"
+        className="pointer-events-none fixed z-[9999] rounded-full border border-orange-400 mix-blend-screen"
       />
 
       {/* Inner Dot */}
@@ -92,7 +92,7 @@ export function CursorGlow() {
           stiffness: 400,
           damping: 30,
         }}
-        className="pointer-events-none fixed z-[9999] h-3 w-3 rounded-full bg-violet-400 shadow-[0_0_20px_rgba(139,92,246,0.9)]"
+        className="pointer-events-none fixed z-[9999] h-3 w-3 rounded-full bg-orange-400 shadow-[0_0_20px_rgba(139,92,246,0.9)]"
       />
     </>
   );

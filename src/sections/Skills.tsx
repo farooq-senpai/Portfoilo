@@ -32,7 +32,7 @@ export function Skills() {
 
         <div className="mb-20 text-center">
 
-          <span className="text-sm font-bold uppercase tracking-[0.4em] text-violet-400">
+          <span className="text-sm font-bold uppercase tracking-[0.4em] text-orange-400">
             Tech Stack
           </span>
 
@@ -77,8 +77,8 @@ text-white/80
 backdrop-blur-xl
 transition-all
 duration-300
-hover:border-violet-400/30
-hover:bg-violet-500/10
+hover:border-orange-400/30
+hover:bg-orange-500/10
 hover:text-white
 "
                 >

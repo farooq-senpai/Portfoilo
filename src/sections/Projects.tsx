@@ -15,7 +15,7 @@ export function Projects() {
       <div className="absolute inset-0 -z-10 overflow-hidden">
 
         <motion.div
-          className="absolute left-0 top-1/3 h-[450px] w-[450px] rounded-full bg-violet-500/20 blur-[140px]"
+          className="absolute left-0 top-1/3 h-[450px] w-[450px] rounded-full bg-orange-500/20 blur-[140px]"
           animate={{
             scale: [1, 1.2, 1],
             opacity: [0.2, 0.4, 0.2],
@@ -46,7 +46,7 @@ export function Projects() {
 
         <div className="mb-24 text-center">
 
-          <span className="text-sm font-bold uppercase tracking-[0.4em] text-violet-400">
+          <span className="text-sm font-bold uppercase tracking-[0.4em] text-orange-400">
             Portfolio
           </span>
 
@@ -85,7 +85,7 @@ export function Projects() {
           className="mt-24 text-center"
         >
           <a
-            href="https://github.com/Ameenkhan18"
+            href="https://github.com/farooq-senpai"
             target="_blank"
             rel="noopener noreferrer"
             className="
@@ -105,8 +105,8 @@ text-white/80
 backdrop-blur-xl
 transition-all
 duration-300
-hover:border-violet-400/30
-hover:bg-violet-500/10
+hover:border-orange-400/30
+hover:bg-orange-500/10
 hover:text-white
 "
           >

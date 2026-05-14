@@ -13,15 +13,15 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    id: "online-voting-system",
+    id: "Data-Structures-Portal",
 
-    title: "Online Voting System",
+    title: "Data Structures Portal",
 
     description:
-      "Developed a secure online voting platform with authentication, role-based access control, vote validation and real-time result handling. Built scalable backend logic and optimized workflows using modular architecture principles.",
+      "Developed a secure Data Structures and Algorithms website with interactive visualizations, real-time algorithm handling and optimized workflows using modular architecture principles.",
 
     tags: [
-      "Python",
+      "React",
       "Flask",
       "SQL",
       "Authentication",
@@ -30,118 +30,116 @@ export const projects: Project[] = [
     ],
 
     github:
-      "https://github.com/Ameenkhan18/online-voting-system",
+      "https://github.com/farooq-senpai/DSA-infinity",
 
     demo:
-      "https://online-voting-system-production-269e.up.railway.app/login",
+      "https://data-structure-seven.vercel.app/",
 
     featured: true,
 
     deviceType: "desktop",
 
     bgColor:
-      "from-violet-500/30 via-fuchsia-500/20 to-black",
+      "from-orange-500/30 via-fuchsia-500/20 to-black",
 
     screenshots: [
-      "/projects/voting-system.png",
+      "https://i.pinimg.com/1200x/8d/af/f0/8daff08cb6d87d93b235af0536e2a4ea.jpg",
     ],
   },
 
   {
-    id: "arrhythmia-classification",
+    id: "Local-Music-Player-App",
 
-    title: "Arrhythmia ECG Classification",
+    title: "Local Music Player Andriod App",
 
     description:
-      "Built a machine learning pipeline to classify cardiac arrhythmias using ECG datasets. Applied preprocessing, exploratory data analysis, feature engineering and predictive modeling to improve classification accuracy and healthcare insights.",
+      "Built a Andriod App music player that can play music files from the local storage and support playback controls, queue management and song discovery.",
 
     tags: [
-      "Python",
-      "Pandas",
-      "Machine Learning",
-      "Scikit-learn",
-      "Data Analysis",
-      "Healthcare AI",
+      "Kotlin",
+      "Android Studio",
+      "Git",
+      "GitHub",
     ],
 
     github:
-      "https://github.com/Ameenkhan18/Classification-of-Arrhythmia-ECG",
-
-    featured: true,
-
-    deviceType: "desktop",
-
-    bgColor:
-      "from-cyan-500/30 via-blue-500/20 to-black",
-
-    screenshots: [
-      "/public/projects/ECG.png",
-    ],
-  },
-
-  {
-    id: "permission-scanner",
-
-    title: "Permission Scanner",
-
-    description:
-      "Developed a full-stack application for permission analysis and secure data handling with responsive UI components, API integrations and scalable backend architecture for smooth real-time workflows.",
-
-    tags: [
-      "React",
-      "Node.js",
-      "API Integration",
-      "Full Stack",
-      "Authentication",
-      "MongoDB",
-    ],
-
-    github:
-      "https://github.com/Ameenkhan18/app",
+      "https://github.com/farooq-senpai/my-first-andriod-app",
 
     featured: true,
 
     deviceType: "mobile",
 
     bgColor:
-      "from-emerald-500/30 via-teal-500/20 to-black",
+      "from-cyan-500/30 via-blue-500/20 to-black",
 
     screenshots: [
-      "/public/projects/permission-main.png",
-      "/projects/permission-2.png",
-      "/projects/permission-3.png",
+      "https://i.pinimg.com/1200x/00/50/28/0050289e93e9e90d8b1ebd9eec3fd1a3.jpg",
     ],
   },
 
   {
-    id: "movie-recommendation-system",
+    id: "Movie Recommendation System",
 
-    title: "Movie Recommendation System",
+    title: "Movie Recommendation system",
 
     description:
-      "Created a machine learning-based recommendation engine using content-based filtering and cosine similarity algorithms. Integrated interactive search and personalized recommendations with responsive deployment using Streamlit.",
+      "Developed a movie recommendation system using machine learning. Applied preprocessing, exploratory data analysis, feature engineering and predictive modeling to improve classification accuracy and healthcare insights.",
 
     tags: [
       "Python",
       "Streamlit",
-      "Machine Learning",
-      "Pandas",
-      "Scikit-learn",
-      "Recommendation System",
+      "API Integration",
+      "Full Stack",
+      "Authentication",
+
     ],
 
     github:
-      "https://github.com/Ameenkhan18/movie-recommendation",
+      "https://github.com/farooq-senpai/movie-recommendation",
+
+    demo:
+      "https://movie-recommendation-bds4ayrru6lcxh8wwrequx.streamlit.app/",
 
     featured: true,
 
     deviceType: "desktop",
 
     bgColor:
-      "from-pink-500/30 via-rose-500/20 to-black",
+      "from-emerald-500/30 via-teal-500/20 to-black",
 
     screenshots: [
-      "/public/projects/movie-system.png",
+      "https://i.pinimg.com/1200x/28/54/f7/2854f7563d133844e24d485b963e0e61.jpg",
+    ],
+  },
+
+  {
+    id: "ml-forge Python Libary",
+
+    title: "ML Forge Python Libary",
+
+    description:
+      "ML Forge is a Python library for building recommendation engine using  data based and collaborative filtering and cosine similarity algorithms. This library provides a simple and efficient way to build recommendation systems.",
+
+    tags: [
+      "Python",
+      "Machine Learning",
+      "Recommendation System",
+      "Data Science",
+      "Pytorch",
+    ],
+
+    github:
+      "https://github.com/farooq-senpai/mlforge",
+
+    featured: true,
+
+    deviceType: "desktop",
+
+    bgColor:
+      "from-red-500/30 via-rose-500/20 to-black",
+
+    screenshots: [
+      "https://i.pinimg.com/1200x/03/8c/ac/038cac275b4242e1916d0146dc3ff5b5.jpg",
     ],
   },
 ];

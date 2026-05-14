@@ -19,14 +19,14 @@ export function About() {
       <div className="section">
 
         <div className="mb-20 text-center">
-          <span className="text-sm font-bold uppercase tracking-[0.4em] text-violet-400">
-            About Me
+          <span className="text-sm font-bold uppercase tracking-[0.4em] text-orange-400">
+            Get To Know Me
           </span>
 
           <h2 className="mt-5 text-4xl font-bold sm:text-6xl">
-            Building Digital{" "}
+            Code • Create •{" "}
             <span className="text-gradient-shimmer">
-              Experiences
+              Scale
             </span>
           </h2>
         </div>
@@ -45,21 +45,21 @@ export function About() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent z-10" />
 
               <Image
-                src="/profile.png"
-                alt="Ameen Khan"
-                width={800}
-                height={1200}
+                src="https://i.pinimg.com/1200x/33/54/38/335438a4894bdd9a8999d59e69cdadc0.jpg"
+                alt="Shaik Abdul Farooq"
+                width={500}
+                height={500}
                 className="h-full w-full object-cover"
               />
 
               <div className="absolute bottom-0 left-0 z-20 w-full p-8">
 
                 <h3 className="text-3xl font-bold text-white">
-                  Ameen Khan S A
+                  Shaik Abdul Farooq
                 </h3>
 
                 <p className="mt-2 text-white/70">
-                  App & Web Developer
+                  App & Web Developer, Cyber Security enthusiast, Machine Learning practitioner, and Automation aficionado.
                 </p>
 
                 <div className="mt-5 flex items-center gap-2 text-sm text-white/60">
@@ -70,24 +70,24 @@ export function About() {
                 <div className="mt-6 flex gap-3">
 
                   <a
-                    href="https://github.com/Ameenkhan18"
+                    href="https://github.com/farooq-senpai"
                     target="_blank"
-                    className="rounded-full border border-white/10 bg-white/5 p-3 transition-all hover:bg-violet-500/20"
+                    className="rounded-full border border-white/10 bg-white/5 p-3 transition-all hover:bg-orange-500/20"
                   >
                     <Github size={18} />
                   </a>
 
                   <a
-                    href="https://www.linkedin.com/in/ameen-khan2"
+                    href="https://www.linkedin.com/in/shaikabdulfarooq"
                     target="_blank"
-                    className="rounded-full border border-white/10 bg-white/5 p-3 transition-all hover:bg-violet-500/20"
+                    className="rounded-full border border-white/10 bg-white/5 p-3 transition-all hover:bg-orange-500/20"
                   >
                     <Linkedin size={18} />
                   </a>
 
                   <a
-                    href="mailto:ameenkhann.2004@gmail.com"
-                    className="rounded-full border border-white/10 bg-white/5 p-3 transition-all hover:bg-violet-500/20"
+                    href="mailto:farooqshaik3906@gmail.com"
+                    className="rounded-full border border-white/10 bg-white/5 p-3 transition-all hover:bg-orange-500/20"
                   >
                     <Mail size={18} />
                   </a>
@@ -105,24 +105,22 @@ export function About() {
             className="space-y-8"
           >
 
-            <div className="glass-strong rounded-[32px] p-8">
+            <div className="glass-strong rounded-[28px] p-8">
 
-              <span className="text-xs uppercase tracking-[0.4em] text-violet-400">
+              <span className="text-xs uppercase tracking-[0.4em] text-orange-400">
                 INTRODUCTION
               </span>
 
               <h3 className="mt-4 text-3xl font-bold leading-tight">
-                Jack of all Trades.
+                Versatile Developer.
               </h3>
 
               <p className="mt-6 text-lg leading-relaxed text-white/70">
-                Electronics and Communication Engineering graduate with a strong foundation in core ECE subjects gained throughout four years of engineering, which helped me develop analytical thinking, problem-solving abilities, innovation, and design-oriented skills. Along with my core branch knowledge, I have a strong interest in the IT domain and aspire to build my career in the technology industry. During my BE journey, I actively trained in areas such as App & Web Development, Data Analytics, and Cybersecurity, which further strengthened my passion for IT. I am eager to apply my technical knowledge, continuously learn new technologies, and contribute to impactful real-world projects in the IT field..
+                Computer Science graduate focused on building modern web applications, AI-driven tools and scalable digital experiences. Skilled in full stack development, automation, machine learning and backend systems with hands-on experience developing real-world projects across web, data and cybersecurity domains
               </p>
 
               <p className="mt-5 text-lg leading-relaxed text-white/70">
-                My interests span across Full Stack Development,
-                Machine Learning, Cybersecurity, Automation,
-                APIs and intelligent systems.
+                My interests span across Full Stack Development, AI-driven applications, Automation, Machine Learning, Cybersecurity and modern scalable systems.
               </p>
 
             </div>
@@ -131,7 +129,7 @@ export function About() {
 
               <div className="glass-strong rounded-[28px] p-6">
                 <h4 className="text-xl font-bold">
-                  Focus Areas
+                  Focused Areas
                 </h4>
 
                 <div className="mt-5 flex flex-wrap gap-3">
@@ -142,6 +140,9 @@ export function About() {
                     "Machine Learning",
                     "Cybersecurity",
                     "APIs",
+                    "Python",
+                    "Java",
+                    "Android App Development",
                   ].map((item) => (
                     <span
                       key={item}
@@ -159,8 +160,7 @@ export function About() {
                 </h4>
 
                 <p className="mt-4 leading-relaxed text-white/70">
-                  Building impactful products while continuously improving
-                  in software engineering, scalable systems and AI development.
+                  Kickstarting my software engineering career by building impactful real-world applications and continuously growing in AI, full stack development and scalable systems.
                 </p>
               </div>
 

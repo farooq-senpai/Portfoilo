@@ -10,7 +10,7 @@ export function Footer() {
         <div className="flex flex-col items-center gap-6 sm:flex-row sm:justify-between">
           <div className="flex items-center gap-3 text-base text-(--muted)">
             <span className="text-lg font-bold text-(--foreground)">
-              <span className="gradient-text">AK</span>
+              <span className="gradient-text">Farooq</span>
             </span>
             <span>•</span>
             <span>
@@ -20,8 +20,8 @@ export function Footer() {
 
           <div className="flex items-center gap-2 text-base font-medium text-(--muted)">
             Building Beyond Limits
-            
-          
+
+
           </div>
 
           <div className="flex items-center gap-5">

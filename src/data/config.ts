@@ -9,23 +9,23 @@ export interface Social {
 export const socials: Social[] = [
   {
     name: "GitHub",
-    url: "https://github.com/Ameenkhan18",
+    url: "https://github.com/farooq-senpai",
     icon: Github,
   },
   {
     name: "LinkedIn",
-    url: "https://www.linkedin.com/in/ameen-khan2/",
+    url: "https://www.linkedin.com/in/shaikabdulfarooq/",
     icon: Linkedin,
   },
   {
     name: "Email",
-    url: "mailto:ameenkhann.2004@gmail.com",
+    url: "mailto:farooqshaik3906@gmail.com",
     icon: Mail,
   },
 ];
 
 export const siteConfig = {
-  name: "AMEEN KHAN",
-  title: "Full Stack Developer and AI Engineer",
+  name: "SHAIK ABDUL FAROOQ",
+  title: "Web and App Developer,Software Engineer & Machine Learning Engineer",
   description: "Building Intelligent Systems & Automation Projects",
 };

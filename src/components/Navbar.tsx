@@ -56,7 +56,7 @@ export function Navbar() {
                 {isActive && (
                   <motion.div
                     layoutId="active-pill"
-                    className="absolute inset-0 rounded-full bg-violet-500/20 border border-violet-400/20"
+                    className="absolute inset-0 rounded-full bg-orange-500/20 border border-orange-400/20"
                     transition={{
                       type: "spring",
                       duration: 0.6,
@@ -65,11 +65,10 @@ export function Navbar() {
                 )}
 
                 <span
-                  className={`relative z-10 ${
-                    isActive
+                  className={`relative z-10 ${isActive
                       ? "text-white"
                       : "text-white/60"
-                  }`}
+                    }`}
                 >
                   {item.label}
                 </span>
